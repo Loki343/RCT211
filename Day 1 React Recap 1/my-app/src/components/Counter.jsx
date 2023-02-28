@@ -3,9 +3,41 @@ import React, { useEffect, useState } from "react";
 const Counter = () => {
   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    console.log("inside useEffect");
-  });
+  // console.log("Component re-rendering");
+
+  // useEffect(() => {
+  //   const id = setInterval(() => {
+  //     console.log("inside useEffect");
+  //   }, 1000);
+  //   return ()=>{
+  //     clearInterval(id)
+  //   }
+  // },[count]);
+
+  console.log("A");
+
+  useEffect(()=>{
+    console.log("1");
+    return ()=>{
+      console.log("2");//this return value will come when we unmount the component
+    }
+  },[count])
+
+  useEffect(()=>{
+    console.log("3");
+    return ()=>{
+      console.log("4");
+    }
+  },[count])
+
+  useEffect(()=>{
+    console.log("5");
+    return ()=>{
+      console.log("6");
+    }
+  },[count])
+
+  console.log("B");
 
   const handleAdd = () => {
     setCount(count + 1);
