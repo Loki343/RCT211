@@ -33,9 +33,9 @@ const PinTab = ({ length, maxChar }) => {
 PinTab.propTypes = {
   length: PropTypes.number.isRequired,
   maxChar: PropTypes.number,
-};
+}
 
-export default PinTab;
+export default PinTab
 
 //Note
 //1. here single variable is over-written with multiple ref
