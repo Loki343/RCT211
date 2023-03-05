@@ -24,13 +24,37 @@ const PinTab = ({ length, maxChar, setOtp }) => {
     setOtp(pinTabValue.join(""));
   };
 
+  const handlePaste = (e) => {
+    const data = e.clipboardData
+      .getData("text")
+      .split("")
+      .filter((item, index) => index < maxChar * length);
+    let values = [];
+    for (let i = 0; i < maxChar * length; i += maxChar) {
+      let temp = "";
+      for (let j = i; j < maxChar + i; j++) {
+        temp += data[j];
+      }
+      values.push(temp);
+    }
+    values.forEach((char, index) => {
+      pinTabValue[index] = char;
+      inputRef.current[index].value = char;
+      if (index < length - 1) {
+        inputRef.current[index + 1].focus();
+      }
+    });
+    setOtp(pinTabValue.join(""));
+    // console.log(data);
+  };
+
   //for focusing first input box, when the user mounts this component
   useEffect(() => {
     inputRef.current[0].focus();
   }, []);
 
   return (
-    <div>
+    <div onPaste={handlePaste}>
       {pinTabLength.map((item, index) => {
         return (
           <Pin
