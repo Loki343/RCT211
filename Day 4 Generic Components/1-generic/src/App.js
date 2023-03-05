@@ -6,7 +6,7 @@ function App() {
   const [otp, setOtp] = useState("");
   return (
     <div className="App">
-      <PinTab length={4} maxChar={1} />
+      <PinTab length={4} maxChar={2} setOtp={setOtp}/>
       OTP is {otp}
     </div>
   );
