@@ -54,7 +54,7 @@ const PinTab = ({ length, maxChar, setOtp }) => {
   }, []);
 
   return (
-    <div onPaste={handlePaste}>
+    <div data-testid="pin-tab" onPaste={handlePaste}>
       {pinTabLength.map((item, index) => {
         return (
           <Pin

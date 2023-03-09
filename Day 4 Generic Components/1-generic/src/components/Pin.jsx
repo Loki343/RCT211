@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 
-const Pin = forwardRef(({ forOnChange, maxChar,forBackspace }, ref) => {
+const Pin = forwardRef(({ forOnChange, maxChar, forBackspace }, ref) => {
   const handleKeuUp = (e) => {
     // console.log(e);
     if (e.keyCode === 8) {
@@ -11,6 +11,7 @@ const Pin = forwardRef(({ forOnChange, maxChar,forBackspace }, ref) => {
   };
   return (
     <input
+      data-testid="pin-input"
       maxLength={maxChar}
       ref={ref}
       //   onChange={forOnChange}
