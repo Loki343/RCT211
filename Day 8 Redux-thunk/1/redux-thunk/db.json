@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "On-render",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Cyclick",
+      "status": false
+    },
+    {
+      "title": "thunk",
+      "status": false,
+      "id": 4
+    }
+  ]
+}
