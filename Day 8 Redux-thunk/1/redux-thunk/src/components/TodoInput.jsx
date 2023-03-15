@@ -7,7 +7,7 @@ const TodoInput = () => {
   const dispatch = useDispatch()
 
   const handleAdd = () => {
-    addTodo(text,dispatch);
+    dispatch(addTodo(text));
     setText("");
   };
 

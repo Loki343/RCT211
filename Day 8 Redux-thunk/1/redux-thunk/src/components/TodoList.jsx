@@ -13,7 +13,8 @@ const TodoList = () => {
   });
 
   useEffect(() => {
-    getTodos(dispatch);
+    // getTodos(dispatch);
+    dispatch(getTodos)
   }, []);
 
   return (

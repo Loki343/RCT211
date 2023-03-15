@@ -34,7 +34,7 @@ export const getTodos = (dispatch) => {
     });
 };
 
-export const addTodo = (title,dispatch) => {
+export const addTodo=(title) => (dispatch) => {
   const obj = {
     title,
     status: false,
