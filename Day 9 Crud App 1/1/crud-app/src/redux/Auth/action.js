@@ -6,7 +6,7 @@ export const login = (userData) => (dispatch) => {
   axios
     .post("https://reqres.in/api/login", userData)
     .then((res) => {
-      console.log(res);
+      // console.log(res);
       dispatch({ type: LOGIN_SUCCESS, payload: res.data.token });
     })
     .catch((e) => {

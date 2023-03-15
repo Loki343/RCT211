@@ -1,13 +1,19 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 import { login } from "./../redux/Auth/action";
+
+let theme = true;
 
 export const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const dispatch = useDispatch();
+  const auth = useSelector((store) => {
+    // console.log(store.AuthReducer.auth);
+    return store.AuthReducer.auth;
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,6 +31,7 @@ export const Login = () => {
   return (
     <DIV>
       <h2>User Login</h2>
+      <h4>{auth ? "Login Successfull" : "Login to continue"}</h4>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -50,6 +57,10 @@ const DIV = styled.div`
   border: 1px solid gray;
   padding: 10px;
 
+  // /*h4 {
+  //   color: ${theme ? "red" : "black"};
+  // }*/
+
   form {
     display: flex;
     flex-direction: column;
@@ -61,6 +72,7 @@ const DIV = styled.div`
     width: 80%;
     height: 40px;
     font-size: large;
+    padding: 5px;
   }
 
   button {
