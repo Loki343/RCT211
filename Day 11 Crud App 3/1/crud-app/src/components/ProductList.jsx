@@ -8,7 +8,7 @@ import { ProductCard } from "./ProductCard";
 export const ProductList = () => {
   const dispatch = useDispatch();
   const { products } = useSelector((store) => store.productReducer);
-  const location = useLocation()
+  const location = useLocation();
   const [searchParams] = useSearchParams();
 
   // console.log(searchParams.getAll("category"));
@@ -16,6 +16,8 @@ export const ProductList = () => {
   let paramObj = {
     params: {
       category: searchParams.getAll("category"),
+      _sort: searchParams.get("order") && "price",
+      _order: searchParams.get("order"),
     },
   };
 

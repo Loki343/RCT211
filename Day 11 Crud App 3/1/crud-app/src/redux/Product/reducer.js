@@ -1,5 +1,6 @@
 import {
   ADD_PRODUCT_SUCCESS,
+  EDIT_PRODUCT_SUCCESS,
   GET_PRODUCT_SUCCESS,
   PRODUCT_FAILURE,
   PRODUCT_REQUEST,
@@ -24,6 +25,9 @@ export const reducer = (state = initialState, { type, payload }) => {
 
     case GET_PRODUCT_SUCCESS:
       return { ...state, isLoading: false, products: payload };
+
+      case EDIT_PRODUCT_SUCCESS:
+      return { ...state, isLoading: false };
 
     default:
       return state;

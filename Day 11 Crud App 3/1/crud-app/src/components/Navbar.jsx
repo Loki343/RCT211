@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Navbar = () => {
   return (
     <DIV>
-      <h3>Shopping App</h3>
+      <h3>ShoeKart</h3>
       <Link to="/">Home</Link>
       <Link to="/login">LogIn</Link>
       <Link to="/admin">Admin</Link>

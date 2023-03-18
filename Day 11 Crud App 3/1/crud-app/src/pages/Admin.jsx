@@ -26,7 +26,8 @@ export const Admin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setProduct(initialState);
-    dispatch(addProduct(product));
+    const payload = {...product,price: Number(product.price)}
+    dispatch(addProduct(payload));
     // console.log(product);
   };
 

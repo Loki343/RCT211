@@ -15,7 +15,7 @@ export const Login = () => {
     return store.AuthReducer.auth;
   });
 
-  console.log(location.state);
+  // console.log(location.state);
 
   const handleSubmit = (e) => {
     e.preventDefault();
