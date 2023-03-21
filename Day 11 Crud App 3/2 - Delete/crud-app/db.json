@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/t/q/m/-original-imaggckgvpad5hgp.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 1799,
+      "brand": "Nike",
+      "discount": "10",
+      "category": "female",
+      "id": 5
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/knt7zbk0/shoe/m/r/r/7-5g-845-campus-gry-d-gry-original-imag2eynkpzvz6tf.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 1099,
+      "brand": "Asian",
+      "discount": "10",
+      "category": "male",
+      "id": 6
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/9/0/q/-original-imagg3femnd3nmtz.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2999,
+      "brand": "Reebok",
+      "discount": "10",
+      "category": "kids",
+      "id": 7
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/p/m/-original-imaghrbyugsjkyzh.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 1399,
+      "brand": "Sparx",
+      "discount": "10",
+      "category": "male",
+      "id": 8
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/o/f/m/-original-imagf25cnzufkza4.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2199,
+      "brand": "Camp",
+      "discount": "10",
+      "category": "female",
+      "id": 9
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/e/8/s/-original-imagfyy2vwbjhqz8-bb.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2699,
+      "brand": "Nike",
+      "discount": "10",
+      "category": "kids",
+      "id": 10
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/s/s/m/9-754-casuals-9-kzaara-grey-original-imag8yywzhcr7yye-bb.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2399,
+      "brand": "Spark",
+      "discount": "10",
+      "category": "male",
+      "id": 11
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/y/4/a/-original-imagg5qmxtqzygd8.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2799,
+      "brand": "Adidas",
+      "discount": "10",
+      "category": "female",
+      "id": 12
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l26hdow0/shoe/7/k/k/10-ogcc-3474119-44-woodland-camel-original-imagdkfgax7p6ahz.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2299,
+      "brand": "Adidas",
+      "discount": "10",
+      "category": "male",
+      "id": 13
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/6/a/o/6-11g-787-6-campus-l-gry-blk-original-imaghycgz4ruwjxy.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 2199,
+      "brand": "Nike",
+      "discount": "10",
+      "category": "kids",
+      "id": 14
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/s/r/r/-original-imagg4zjzuhvt42n.jpeg?q=70",
+      "title": "Sport Specials Edition",
+      "price": 999,
+      "brand": "Campus",
+      "discount": "10",
+      "category": "female",
+      "id": 15
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/x/2/n/-original-imagf9stmryukebb-bb.jpeg?q=70",
+      "title": "Blue Edition",
+      "price": 1250,
+      "brand": "Camp",
+      "discount": "12",
+      "category": "male",
+      "id": 16
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/x/2/n/-original-imagf9stmryukebb-bb.jpeg?q=70",
+      "title": "Blue Edition",
+      "price": 1750,
+      "brand": "Camp",
+      "discount": "12",
+      "category": "kids",
+      "id": 17
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/x/2/n/-original-imagf9stmryukebb-bb.jpeg?q=70",
+      "title": "Blue Edition",
+      "price": 1750,
+      "brand": "Camp",
+      "discount": "12",
+      "category": "kids",
+      "id": 18
+    }
+  ]
+}
