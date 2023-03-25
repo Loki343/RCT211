@@ -13,12 +13,17 @@
     {
       "id": 3,
       "title": "Live-classes",
-      "status": false
+      "status": true
     },
     {
       "title": "Learn-React",
       "status": false,
       "id": 4
+    },
+    {
+      "title": "Learn-Typescript",
+      "status": false,
+      "id": 5
     }
   ]
 }

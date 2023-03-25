@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { postTodo } from '../api';
+import { postTodo } from "../api";
 
+interface TodoInputProps {
+  update: () => void;
+}
 
-const TodoInput = () => {
+const TodoInput = ({ update }: TodoInputProps) => {
   const [title, setTitle] = useState<string>("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -12,6 +15,7 @@ const TodoInput = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     postTodo(title);
+    update();
     setTitle("");
   };
 

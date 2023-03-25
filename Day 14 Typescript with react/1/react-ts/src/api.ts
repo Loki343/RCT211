@@ -19,3 +19,19 @@ export const getTodos = async () => {
   );
   return res.data;
 };
+
+export const toggleTodo = async (id: number, status: boolean) => {
+  const res = await axios.patch(`http://localhost:8080/todos/${id}`, {
+    status: !status,
+  });
+};
+
+//0r
+/*
+export const toggleTodo = async (id: number) => {
+  const todo = await axios.get(`http://localhost:8080/todos/${id}`);
+  const res = await axios.patch(`http://localhost:8080/todos/${id}`, {
+    status: !todo.status,
+  });
+};
+*/
