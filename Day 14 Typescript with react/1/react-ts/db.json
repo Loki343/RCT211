@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Assignments",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "Self-study",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Live-classes",
+      "status": false
+    },
+    {
+      "title": "Learn-React",
+      "status": false,
+      "id": 4
+    }
+  ]
+}

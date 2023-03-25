@@ -1,0 +1,1 @@
+1. npx create-react-app my-ts --template typescript
