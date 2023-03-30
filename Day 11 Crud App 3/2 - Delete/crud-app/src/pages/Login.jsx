@@ -16,7 +16,6 @@ export const Login = () => {
   });
 
   // console.log(location.state);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const userData = {
